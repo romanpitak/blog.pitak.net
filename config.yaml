@@ -1,0 +1,37 @@
+
+targetBaseUrl: http://pitak.net/blog
+
+sites:
+    -
+        from: /
+        to:   /
+    -
+        from: /about/
+        to:   /about/
+    -
+        from: /2014/11/27/volume-control-keyboard-shortcuts/
+        to:   /2014/11/27/volume-control-keyboard-shortcuts/
+    -
+        from: /2014/11/20/canon-printer-department-id-job-accounting/
+        to:   /2014/11/20/canon-printer-department-id-job-accounting/
+    -
+        from: /2014/11/12/why-the-long-options/
+        to:   /2014/11/12/why-the-long-options/
+    -
+        from: /2014/11/14/canon-printer-department-id-job-accounting/
+        to:   /2014/11/20/canon-printer-department-id-job-accounting/
+    -
+        from: /2014/11/03/change-magentos-contacts-page-url/
+        to:   /2014/11/03/change-magentos-contacts-page-url/
+    -
+        from: /2014/10/31/setting-up-p4merge/
+        to:   /2014/10/31/setting-up-p4merge/
+    -
+        from: /code/2014/11/12/why-the-long-options/
+        to:   /2014/11/12/why-the-long-options/
+    -
+        from: /code/2014/11/03/change-magentos-contacts-page-url/
+        to:   /2014/11/03/change-magentos-contacts-page-url/
+    -
+        from: /code/2014/10/31/setting-up-p4merge/
+        to:   /2014/10/31/setting-up-p4merge/
