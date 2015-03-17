@@ -1,15 +1,14 @@
 
 builder = build.litcoffee
 config = config.yaml
-index = redirect.jade
 
 .PHONY: all clean
 
 all: html
 
-html: node_modules $(builder) $(config) $(index)
+html: node_modules $(builder) $(config)
 	@mkdir -p $@
-	coffee $(builder) $(config) $(index) $@
+	coffee $(builder) $(config) $@
 
 node_modules: package.json
 	npm install
